@@ -16,6 +16,15 @@ import type { UserModel } from 'models/user'
 export const challenges: Record<ChallengeKey, ChallengeModel> = {} as Record<ChallengeKey, ChallengeModel>
 export const users: Record<string, UserModel> = {}
 export const products: Record<string, ProductModel> = {}
+
+
+
+
+
+
+
+
+
 export const feedback: Record<string, FeedbackModel> = {}
 export const baskets: Record<string, BasketModel> = {}
 export const basketItems: Record<string, BasketItemModel> = {}
